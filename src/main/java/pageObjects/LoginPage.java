@@ -13,8 +13,7 @@ public class LoginPage
 	By email = By.cssSelector("input[placeholder='Email id']");
 	By password = By.cssSelector("input[placeholder='Password']");
 	By loginButton = By.cssSelector("button[class='btn btn-login']");
-	
-	
+	By accountText = By.xpath("//ul[@class='navbar-nav right-menu']/li[1]/a");	
 	
 	
 	public LoginPage(WebDriver driver) 
@@ -48,6 +47,11 @@ public class LoginPage
 	public WebElement clickOnLoginButton()
 	{
 		return driver.findElement(loginButton);
+	}
+	
+	public WebElement getAccountText()
+	{
+		return driver.findElement(accountText);
 	}
 	
 	
