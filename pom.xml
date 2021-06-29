@@ -45,7 +45,31 @@
     		<scope>test</scope>
 		</dependency>
 		
-	<!--  -->
+	<!-- cucumber java, cucumber junit and cucumber testng version should be same -->
+  
+  	<!-- CUCUMBER JAVA --> 
+  		<dependency>
+    		<groupId>info.cukes</groupId>
+	    	<artifactId>cucumber-java</artifactId>
+    		<version>1.2.5</version>
+		</dependency>
+  
+  	<!-- CUCUMBER JUNIT -->
+  		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
+		<dependency>
+	    	<groupId>info.cukes</groupId>
+	    	<artifactId>cucumber-junit</artifactId>
+	    	<version>1.2.5</version>
+    		<scope>test</scope>
+		</dependency>
+		
+	<!-- CUCUMBER TESTNG -->
+		<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-testng -->
+		<dependency>
+		    <groupId>info.cukes</groupId>
+	    	<artifactId>cucumber-testng</artifactId>
+		    <version>1.2.5</version>
+		</dependency>
   
   </dependencies>
 

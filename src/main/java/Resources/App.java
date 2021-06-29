@@ -1,4 +1,4 @@
-package Automation;
+package Resources;
 
 /**
  * Hello world!
